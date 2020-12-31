@@ -1,1 +1,3 @@
-# Curso_programacion_Bash_shell
+# Curso de Programación en Bash Shell
+
+## Platzi
