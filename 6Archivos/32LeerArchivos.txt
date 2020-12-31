@@ -1,0 +1,2 @@
+
+ver 24_readFile.sh

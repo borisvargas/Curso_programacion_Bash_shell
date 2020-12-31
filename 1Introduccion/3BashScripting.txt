@@ -1,0 +1,18 @@
+Bash Scripting
+La idea básica de generar programas en bash es poder ejecutar múltiples comandos de forma secuencial en muchas ocasiones para automatizar una tarea en especifico. Estos comandos son colocados en un archivo de textos de manera secuencial para poder ejecutarlos a posterioridad.
+
+Un archivo .vimrc podremos configurar de mejor manera nuestro editor VIM.
+
+Presionamos I para poder escribir en nuestro editor.
+Presionamos ESC para salir del modo edición, luego escribimos :wq para salir y guardar nuestro archivo.
+
+
+Para configurar el editor vim debemos estar en $home: cd $home
+Creamos el archivo llamado .vimrc con el comando: vim .vimrc
+Presionamos la tecla i para editar, ponemos:
+set showmode
+set autoindent
+set tabstop=4
+set expandtab
+syntax on
+Presionamos (Esc, shift + : ) :wq para salir y guardar

@@ -1,0 +1,66 @@
+Comparaciones De Cadenas Alfanumericas
+
+Operador Verdad (TRUE) si:
+cadena1 = cadena2 cadena1 es igual a cadena2
+cadena1 != cadena2 cadena1 no es igual a cadena2
+cadena1 < cadena2 cadena1 es menor que cadena2
+cadena1 > cadena 2 cadena1 es mayor que cadena 2
+-n cadena1 cadena1 no es igual al valor nulo (longitud mayorque 0)
+-z cadena1 cadena1 tiene un valor nulo (longitud 0)
+
+Comparacion De Valores Numericos
+
+Operador Verdad (TRUE) si:
+x -lt y x menor que y
+x -le y x menor o igual que y
+x -eq y x igual que y
+x -ge y x mayor o igual que y
+x -gt y x mayor que y
+x -ne y x no igual que y
+
+Comprobacion De Atributos De Fichero
+
+Operador Verdad (TRUE) si:
+-d fichero fichero existe y es un directorio
+-e fichero fichero existe
+-f fichero fichero existe y es un fichero regular (no un
+directorio, u otro tipo de fichero especial)
+
+-r fichero Tienes permiso de lectura en fichero
+-s fichero fichero existe y no esta vacio
+-w fichero Tienes permiso de escritura en fichero
+-x fichero Tienes permiso de ejecucion en fichero (o de busqueda
+si es un directorio)
+
+-O fichero Eres el dueño del fichero
+-G fichero El grupo del fichero es igual al tuyo.
+
+fichero1 -nt fichero2 fichero1 es mas reciente que fichero2
+fichero1 -ot fichero2 fichero1 es mas antiguo que fichero2
+
+
+10_opciones.sh
+
+# ! /bin/bash
+# Programa para ejemplificar como se realiza el paso de opciones con o sin parametros
+# Autor: Boris Vargas - @borisvargas96
+
+echo "Programa Opciones"
+echo "Opcion 1 enviada: $1"
+echo "Opcion 2 enviada: $2"
+
+echo "Opciones enviadas: $*"
+echo -e "\n"
+echo "Recuperar valores"
+while [ -n "$1" ]
+do
+case "$1" in
+-a) echo "-a opcion utilizada";;
+-b) echo "-b opcion utilizada";;
+-c) echo "-c opcion utilizada";;
+*) echo "$1 no es una opcion";;
+esac
+shift
+done
+
+

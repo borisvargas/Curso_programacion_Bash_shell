@@ -1,0 +1,6 @@
+Respaldo Empaquetado con clave
+
+Aquí un tip de seguridad para ofuscar los programas que desarrollemos en BASH Shell. Aquí les dejo en link. Ofuscar Bash
+
+zip para empaquetar
+unzip para desempaquetar

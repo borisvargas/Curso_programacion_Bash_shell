@@ -1,0 +1,4 @@
+Sentencias Case
+En la sentencia Case el objetivo principal es validar una expresión simple, puede ser un número, una cadena o un rango de valores
+
+Ver 15_case.sh

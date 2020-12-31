@@ -1,0 +1,29 @@
+Como menciona el profesor, el comando chmod +x es la forma rápida de dejar un archivo con permisos de ejecución. Si tienes problemas de memoria quizás sea el opción más fácil, en lugar de usar el típico chmod 7XX o similar.
+
+Agregar permisos de lectura: chmod +r
+Agregar permisos de escritura: chmod +w archivo
+
+Quitar permisos de lectura: chmod -r archivo
+Quitar permisos de escritura: chmod -w archivo
+Quitar permisos de ejecución: chmod -x archivo
+
+En caso de querer cambiar los permisos del grupo y otros ( el comando es similar al ejemplo anterior, sin embargo esta vez se agregar una “g” para grupo o una “o” para otros)
+
+chmod g+w archivo
+chmod g-wx archivo
+chmod o+w archivo
+chmod o-wx archivo
+
+por último para cambiar para todos: chmod ugo+rwx (dará permisos de lectura, escritura y ejecucón a todos) , esto es equivalente a chmod 777
+
+EJEMPLO
+chmod +x 01_utilityPostgres.sh
+./01_utilityPostgres.sh
+-- bash 01_utilityPostgres.sh
+
+USO DE TYPE
+info type
+type ls
+type cd
+type -a ls
+type -t cd

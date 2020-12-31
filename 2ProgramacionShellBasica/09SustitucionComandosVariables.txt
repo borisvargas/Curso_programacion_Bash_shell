@@ -1,0 +1,9 @@
+Para la sustitución de comandos es importante tener en cuenta que el resultado servirá para realizar otras tareas de otras sentencias de nuestro programa.
+
+Las dos maneras de hacerlo:
+
+Usando el backtick caracter. (`)
+Usando el signo de dólar con el formato $(comando)
+
+ver archivo 05_subtitucionComand.sh
+

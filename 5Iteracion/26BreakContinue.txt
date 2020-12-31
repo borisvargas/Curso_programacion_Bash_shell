@@ -1,0 +1,5 @@
+Break y continue
+Break se utiliza para salir de la ejecución de los ciclos for y while.
+Continue se utiliza para continuar con la siguiente ejecución.
+
+Ver 20_breakContinue.sh

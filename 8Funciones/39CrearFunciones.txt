@@ -1,0 +1,5 @@
+Crear funciones y Paso de Argumentos
+
+Las funciones son bloques de código que realizan algo en especifico y que ayudan a organizar el código de nuestro programa.
+
+Ver 29_functionsArgs.sh

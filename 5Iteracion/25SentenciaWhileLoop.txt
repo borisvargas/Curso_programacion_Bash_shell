@@ -1,0 +1,4 @@
+Sentencia while loop
+El While itera una lista de valores basada en una condición lógica mientras esta sea verdadera.
+
+Ver 18_whileLoop.sh

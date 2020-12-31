@@ -1,0 +1,16 @@
+Expresiones Condicionales
+Las expresiones condicionales ya las hemos visto en clases anteriores, pero en qué corresponde y cómo se forman las veremos en esta clase. Estás son las siguientes
+
+Utilizada en decisión, iteración.
+Formada por una o más condiciones
+Condiciones con tipos de datos diferentes
+Utiliza los operadores relacionales y condicionales
+
+Operador Verdad (TRUE) si:
+-d fichero fichero existe y es un directorio
+-e fichero fichero existe
+-f fichero fichero existe y es un fichero regular (no un
+directorio, u otro tipo de fichero especial)
+
+Ver archivo 14_expresionesCondicionales.sh
+

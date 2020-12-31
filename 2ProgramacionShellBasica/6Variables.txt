@@ -1,0 +1,37 @@
+En esta clase el profesor nos explica sobre la declaración y alcance de variables dentro de un programa Bash.
+
+La programación Bash Shell es muy importante al momento de crear scripts que nos permitan automatizar procesos en cualquier sistema operativo UNIX como GNU/Linux, uno de los más usados en servidores.
+
+1 Variables de entorno
+Ayudan a obtener infromacion del sistema, almacenar informacion temporal y modificar su informacion. Existen 2 tipos:
+Variables Globales: Son visibles desde el shell que lo creo o desde cuaquier hijo de esa shell.
+Variables Locales: Son visibles solo desde el shell que la creo.
+
+Variable Persistente: Para crear una de estas es necesario introducirla en el archivo /etc/profile pero en el caso de los derivados debian si revisamos un poco el script nos damos cuenta que llama a otro archivo llamado /etc/bash.bashrc en el cual podemos crear las variables de entorno persistentes.
+Por eso no funciona llamar la variable declarada en /etc/profile desde un shell
+
+2 Variables de usuario
+Son las variables que se corren dentro de un script como en cualquier programa de computadora C, C++ o Java
+Variable global: Se puede usar desde otro script siempre y cuando sea llamado desde el script que contiene la variable.
+-Variable local:_ Solo tiene alcance en el script que la creo.
+
+BUSCAMOS LAS VARIABLES DE ENTORNO
+vim /etc/profile
+-- para editar y guardar
+sudo vim /etc/profile
+---
+# Variable de Entorno S.O.
+COURSE_NAME=Programacion Bash
+export COURSE_NAME
+---
+vim 02_variables.sh
+---
+# !/bin/bash
+# Programa para realizar la declaracion de variables
+opcion=0
+nombre=Marco
+echo "Opcion: $opcion y Nombre: $nombre"
+---
+chmod +x 02_variables.sh
+./02_variables.sh
+

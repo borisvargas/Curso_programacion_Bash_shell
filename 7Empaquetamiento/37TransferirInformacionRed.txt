@@ -1,0 +1,4 @@
+Transferir información red
+
+Para los interesados en seguridad, este comando de forma invertida es decir: 
+$ rsync -avz user@host/directory  --> trae los archivos del host destino al nuestro.

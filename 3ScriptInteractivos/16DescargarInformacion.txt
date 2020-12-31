@@ -1,0 +1,8 @@
+Descargar información de Internet
+
+Yo recomiendo:
+
+Para archivos pequeños ~> wget
+Para comunicarse con un servicio (por ejemplo, una API Restful) ~> curl
+Para archivos de tamaño considerable ~> aria2
+aria2 es genial porque soporta multiples protocolos como BitTorrent y FTP, además de soportar descargas en paralelo.

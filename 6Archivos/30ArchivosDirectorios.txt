@@ -1,0 +1,6 @@
+Archivos y Directorios
+Para crear directorios utilizamos el comando mkdir seguido del nombre que queremos colocar.
+
+Para crear archivos utilizamos el comando touch seguido del nombre que queremos colocar.
+
+Ver 22_archivosDirectorios.sh

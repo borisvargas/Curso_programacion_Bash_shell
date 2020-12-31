@@ -1,0 +1,4 @@
+Sentencia for loop
+La sentencia For es esa que se suele utilizar mucho cuando se quiere recorrer o iterar sobre una lista de valores. En Bash también soporta el For loop expression el cual tiene tres bloques, tanto de inicialización, condición e iteración.
+
+Ver 17_forLoop.sh

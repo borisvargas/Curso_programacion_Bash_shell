@@ -1,0 +1,7 @@
+Validar información
+Para el proceso de validación de información tenemos dos maneras de hacerlo:
+
+Para validar tamaños se utiliza el siguiente comando: read -n <numero_caracteres>
+Para validar el tipo de datos se utilizan las expresiones regulares
+
+ver ejemplo 09?readValidate.sh
